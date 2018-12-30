@@ -1,3 +1,4 @@
+<!--vilash demo-->
 <ng-container *ngIf="dailyForecast">
     <div class="row" [class.justify-content-end]="dailyForecast.forecasts[0].date.getHours() > 0">
         <div class="col-1" *ngFor="let forecast of dailyForecast.forecasts">
